@@ -65,7 +65,7 @@
         android:layout_margin="50dp"
         android:textAlignment="center"
         android:textColor="@android:color/holo_red_light"
-
+        android:id="@+id/alert"
 
     />
 

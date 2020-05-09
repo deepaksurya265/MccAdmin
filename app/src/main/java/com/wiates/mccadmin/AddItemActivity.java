@@ -75,7 +75,7 @@ upload.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
         progressDialog.show();
-       alert.setText("Please Press the button again!");
+       alert.setText("Uploading... Please Wait!");
 
 
         StorageReference ImageFolder= FirebaseStorage.getInstance().getReference().child("Image Folder");
@@ -133,7 +133,7 @@ for(upload_count=0;upload_count<ImageList.size();upload_count++)
                         currentImageSelect = currentImageSelect + 1;
                     }
                         alert.setVisibility(View.VISIBLE);
-                    alert.setText("SELECTED" + ImageList.size() +"Images");
+                    alert.setText("Selected " + ImageList.size() +" Images");
                     choose.setVisibility(View.GONE);
 
 
@@ -154,6 +154,7 @@ for(upload_count=0;upload_count<ImageList.size();upload_count++)
             alert.setText("Image uploaded successfully!");
             upload.setVisibility(View.GONE);
 
+            ImageList.clear();
 
         }
 
