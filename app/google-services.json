@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1057789966604",
+    "firebase_url": "https://mcc-foods-c2ab9.firebaseio.com",
+    "project_id": "mcc-foods-c2ab9",
+    "storage_bucket": "mcc-foods-c2ab9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057789966604:android:7832900db5020318af7129",
+        "android_client_info": {
+          "package_name": "com.wiates.mccadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057789966604-aro9umeveftr2nnvv8o404re6vfmjpv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wiates.mccadmin",
+            "certificate_hash": "20dff1ad8d69e8d305a774b76e01bac18e6a530b"
+          }
+        },
+        {
+          "client_id": "1057789966604-j80s1l687va28nkdb00mrdifr7vvumrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAvwL2xCvE_eKuCWAFjxEeIEzDwEcbwwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057789966604-j80s1l687va28nkdb00mrdifr7vvumrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

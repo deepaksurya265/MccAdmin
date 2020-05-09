@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="name" type="id" />
+    <item name="quantity" type="id" />
+    <item name="price" type="id" />
+    <item name="description" type="id" />
+    <item name="submit" type="id" />
+    <item name="alert" type="id" />
+</resources>
